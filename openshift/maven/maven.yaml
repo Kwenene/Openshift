@@ -35,7 +35,7 @@ spec:
       uri: "${SOURCE_REPOSITORY_URL}"
       ref: "${SOURCE_REPOSITORY_REF}"
     sourceSecret:
-       name:
+       name: git-aut-token
   strategy:
     dockerstrategy:
       dockerfilePath: "openshift/dockerfile/${SERVICE_NAME}/${SERVICE_NAME}.docker"
